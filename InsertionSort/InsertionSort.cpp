@@ -39,16 +39,14 @@ void insertionSort() {
 			j--;	//Step 4b
 		}
 		arr[j+1] = temp; //Step 5
-	}
-	do {
+
 		pass = pass + 1;
-			cout << "\nPass" << pass - 1 << "= "; //Number of pass
+		cout << "\nPass" << pass - 1 << "= "; //Number of pass
 		for (int k = 0; k < n; k++) {
 			cout << arr[k] << " "; //Menampilkan data pada number of pass
-		}
+			}
 		cout << endl;
-
-	} while (pass <= n - 1);
+	}
 }
 
 void display() {
